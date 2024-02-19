@@ -1,0 +1,94 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ :root{
+    --color-uno:#212529;
+    --white:#fff;
+    --pink:#e83e8c;
+    --info:#17a2b8;
+    --hueso:#707070;
+    --card-titulo:#373A3C;
+}
+.barra{
+    background-color: var(--pink);
+}
+.card {
+    width: 18rem;
+    margin: 20px auto;
+}
+
+.deco-a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11px;
+}
+.prod-h1{
+    color: var(--hueso);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 64px;
+}
+.card-titulo{
+    color: var(--card-titulo);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.card-text{
+    color: var(--card-titulo);
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+.list-group-item{
+    color: var(--card-titulo);
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+}
+.credit-c{
+    background-color: var(--info);
+    color: var(--white);
+    height: 170px;
+}
+.fab {
+    margin: 0 15px;
+    font-size: 75px;   
+}
+.pago{
+    height: 170px;
+}
+.h2-text{
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 58px;
+    padding-bottom: 57px;
+}
+.icons-section{
+    padding-top: 58px;
+    justify-content: space-evenly;
+}
+.final{
+    background-color: var(--pink);
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 35px !important;
+        font-weight: bold !important;
+        /* margin-top: 50px; */
+        /* padding-top: 41px; */
+        padding-left: 61.5px;
+        padding-right: 61.5px;
+    }
+    .logo {
+        width: 150px;
+        padding-left: 40px;
+    }
+}
